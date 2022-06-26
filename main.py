@@ -58,7 +58,7 @@ def Input_PlayerChoiceMusicSecond():
     
     char_TimeSet = input("알람을 몇분에 한번씩 울리시겠습니까? : ")
     WaitTime = float(char_TimeSet)       # 몇분에 한번씩 울릴지 설정
-    WaitTime = WaitTime * 600
+    WaitTime = WaitTime * 60
 
 
 
